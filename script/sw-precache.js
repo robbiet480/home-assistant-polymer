@@ -69,6 +69,7 @@ var options = {
     rootDir + '/fonts/roboto/Roboto-Bold.ttf',
     rootDir + '/images/card_media_player_bg.png',
   ],
+  importScripts: ['/push.js'],
   stripPrefix: '..',
   replacePrefix: 'static',
   verbose: true,
